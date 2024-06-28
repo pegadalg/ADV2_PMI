@@ -1,0 +1,27 @@
+Crie um app para cadastrar nota fiscal, código do imposto, valor da nota
+fiscal, estado e fornecedor
+Código do imposto
+Aceitar somente os códigos 1234, 6789, 1708 e 5952
+Aceitar somente os estados do RJ, SP e MG.
+Aceitar somente os fornecedores Totvs e Microsoft.
+Crie um menu para:
+Cadastro: Deverá cadastrar os itens acima.
+Listagem: Deverá listar as seguintes informações: nota fiscal, código do
+imposto, valor da nf, estado, fornecedor e valor do imposto.
+O valor do imposto deverá ser calculado da seguinte forma:
+Se o código do imposto for 1234 ou 6789 e estado for RJ, o valor do imposto
+será de 1% sobre o valor da nota fiscal.
+Se o código do imposto for 1234 ou 6789 e o estado for SP, o valor do imposto
+será de 2% sobre o valor da nota fiscal.
+Se o código do imposto for 1234 ou 6789 e o estado for MG, o valor do imposto
+será de 3% sobre o valor da nota fiscal.
+Resumo: Quando esta página for exibida deve mostrar os totais for fornecedor
+e estado Exibir o somatório do valor de todas as notas fiscais conforme abaixo:
+(8,0 pontos)
+Fornecedor totvs, estado RJ
+Fornecedor totvs, estado SP
+Fornecedor totvs, estado MG
+Fornecedor Microsoft, estado MG
+PM I - Trabalho 2a AVD - 2024-1 2
+Fornecedor Microsoft, estado SP
+Fornecedor Microsoft, estado RJ
